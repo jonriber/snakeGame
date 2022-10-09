@@ -14,11 +14,11 @@ class Apple {
                     isTouching = true;
                 }
             }
+            this.color = "red";
+            this.size = this.snake.size
             if(!isTouching){
                 break;
             }
-            this.color = "pink";
-            this.size = this.snake.size
         }
     }
 };
