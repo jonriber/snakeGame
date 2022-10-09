@@ -23,4 +23,5 @@ class Apple {
     }
 };
 
-export default Apple;
+module.exports = Apple;
+// export default Apple;
