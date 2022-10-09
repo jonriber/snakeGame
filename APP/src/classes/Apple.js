@@ -8,7 +8,7 @@ class Apple {
         while(true){
             isTouching =false;
             this.x = Math.floor(Math.random() * this.canvas.width / this.snake.size) * this.snake.size
-            this.y = Math.floor(Math.random() * this.canvas.heigth / this.snake.size) * this.snake.size
+            this.y = Math.floor(Math.random() * this.canvas.height / this.snake.size) * this.snake.size
             for( let i = 0; i < this.snake.tail.length; i++){
                 if(this.x === this.snake.tail[i].x && this.y === this.snake.tail[i].y){
                     isTouching = true;
@@ -23,5 +23,5 @@ class Apple {
     }
 };
 
-module.exports = Apple;
-// export default Apple;
+// module.exports = Apple;
+export  {Apple};

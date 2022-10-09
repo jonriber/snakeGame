@@ -40,6 +40,6 @@ class Snake {
     }
 }
 
-module.exports = Snake;
+// module.exports = Snake;
 
-// export default Snake
+export  {Snake};
